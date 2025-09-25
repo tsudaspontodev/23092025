@@ -122,14 +122,36 @@
 // usando o lanço for e uma estrutura if, crie um script que conte de exiba no console quantos numeros pares existem entre 1 e 50
 
 
-let cont = 0
-for (let i = 1; i <= 50; i++ ) 
-{
-    if (i % 2 === 0) {
-        //console.log(`${i} é par`);
-        cont++
+// let cont = 0
+// for (let i = 1; i <= 50; i++ ) 
+// {
+//     if (i % 2 === 0) {
+//         //console.log(`${i} é par`);
+//         cont++
         
-    }
+//     }
     
+// }
+// console.log(`pares de 1 a 50 ${cont}`)
+
+//Some todos os números de 1 a 100 e mostre o resultado. (for)
+
+// let soma = 0;
+// for (let i = 0; i <= 100; i++) {
+//     soma += i;
+// }
+
+// console.log(`A soma de 1 a 100 é ${soma}`)
+
+// crie um array com 5 nomes e mostre cada nome 
+
+const nomes  = ["Maria", "Jose", "Pedro", "matheus" ]
+for (let i = 0; i < nomes.length; i++) {
+    console.log(nomes[i]);
 }
-console.log(`pares de 1 a 50 ${cont}`)
+
+function apresentacao (name) {
+    return ('ola ${name}');
+}
+
+console.log(apresentacao ('Marcos'));
